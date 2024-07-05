@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+
+.body_me {
+ background-image: url(image/bg_me.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+header img {
+  border-radius: 50px;
+}
+
+
+.my_main {
+
+  display: flex;
+  width: 97% !important;
+
+
+
+
+
+}
+.signup_login {
+  border-top: 3px solid;
+  border-left: 3px solid;
+  border-right: 3px solid;
+ border-bottom: 3px solid;
+ border-radius: 6px;
+  border-image: linear-gradient(to right, rgb(255 46 144) 0%, rgb(61 35 185) 100%) 5;
+}
+
+.signup_login {
+  background-color: white;
+  height: 14.4cm;
+  border-radius: 20px;
+  padding: 3%;
+  
+
+}
+
+.text_content {
+  width: 50%;
+
+
+  text-align: center;
+  margin: auto;
+  margin-top: 4.5cm;
+
+
+}
+
+.my_main {
+  height: 20cm;
+  margin-top: 1cm;
+  width: 90%;
+}
+
+label {
+  display: block;
+}
+
+.inputField {
+  position: relative;
+}
+
+.inputField input {
+  padding: 8px 20px;
+  padding-top: 18px;
+  border: 1.8px solid rgba(107, 107, 107, 0.4);
+  border-radius: 3px;
+  width: 50%;
+  color: black;
+}
+
+.inputField input:focus {
+  border: 1.8px solid #6b6b6b;
+  outline: none;
+
+}
+
+.inputField span {
+  pointer-events: none;
+  opacity: 0.5;
+  position: absolute;
+  padding-left: 20px;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  cursor: text;
+}
+
+.inputField input:focus+span,
+.inputField input:not(:placeholder-shown)+span {
+  top: 7px;
+  -webkit-transform: scale(0.7) translateY(-10%) translateX(-8.5px);
+  transform: scale(0.7) translateY(-10%) translateX(-8.5px);
+  opacity: 0.5 !important;
+}
+
+.inputField input,
+.inputField span {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.input_login,
+.input_passaword {
+  width: 100% !important;
+}
+
+.sb_btn {
+  width: 100% !important;
+
+}
+
+
+/*              style signup                               */
+
+
+.main_signup {}
+
+.signup {
+  background-color: white;
+  height: 20cm !important;
+  border-radius: 20px;
+  width: 40%;
+  margin: auto !important;
+
+}
+
+
+.nav_name_gender label b {
+  display: block !important;
+}
+
+.sel_gender {
+  width: 6cm !important;
+
+}
+
+.input_signup_name {
+  width: 6cm !important;
+
+}
+
+.main_signup {
+  height: 20cm;
+}
+
+.nav_password {
+  display: flex;
+  justify-content: space-between !important;
+}
+
+
+.password_signup {
+  width: 6cm !important;
+
+}
+
+.con_signup {
+  width: 6cm !important;
+
+}
+
+
+   

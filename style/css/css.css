@@ -1,0 +1,43 @@
+span{
+background-color: rgba(0, 0, 0, 0.700);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px ;
+   margin-right: 5px;
+ 
+ 
+}
+.demo
+{
+overflow : hidden;
+background-color :blue;
+}
+.demo a
+{
+float : left;
+display : block;
+color : white;
+text-align : center;
+padding : 10px;
+text-decoration : none;
+}
+@media screen and (max-width : 600px)
+{
+.demo a
+{
+float : none;
+width : 100%;
+}
+
+}
+body{
+   background-image: url(../210-2104700_front-end-web-development..jpg);
+   background-repeat: no-repeat;
+   background-size: 100%;
+   background-attachment: fixed;
+   background-position: center;
+}
